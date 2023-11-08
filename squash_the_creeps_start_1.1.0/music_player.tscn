@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://3vdy8orp5rr3"]
+
+[ext_resource type="AudioStream" uid="uid://bdwctcflmaset" path="res://art/House In a Forest Loop.ogg" id="1_e5fc6"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer3D"]
+stream = ExtResource("1_e5fc6")
+autoplay = true
